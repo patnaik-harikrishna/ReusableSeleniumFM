@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="2" guice-stage="DEVELOPMENT" name="Failed suite [Menus]">
+  <listeners>
+    <listener class-name="listeners.CustomListeners"/>
+    <listener class-name="listeners.AnnotationTransformer"/>
+    <listener class-name="listeners.TestsListenerAdapter"/>
+  </listeners>
+  <test name="AskQ Menu Tests(failed)">
+    <parameter name="mobiledevice" value="false"/>
+    <classes>
+      <class name="tests.AskAQuestionTest">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="beforeMethod"/>
+          <include name="beforeClass"/>
+          <include name="beforeTest"/>
+          <include name="afterTest"/>
+          <include name="testAskQuestionMenu"/>
+          <include name="afterClass"/>
+          <include name="beforeSuite"/>
+          <include name="afterSuite"/>
+        </methods>
+      </class> <!-- tests.AskAQuestionTest -->
+    </classes>
+  </test> <!-- AskQ Menu Tests(failed) -->
+</suite> <!-- Failed suite [Menus] -->

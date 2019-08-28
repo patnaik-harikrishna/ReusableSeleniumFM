@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Portal Test" duration-ms="36379" started-at="2019-08-23T07:31:51Z" finished-at="2019-08-23T07:32:28Z">
+    <groups>
+    </groups>
+    <test name="Login Tests" duration-ms="36379" started-at="2019-08-23T07:31:51Z" finished-at="2019-08-23T07:32:28Z">
+      <class name="tests.LoginTest">
+        <test-method status="PASS" signature="beforeSuite()[pri:0, instance:tests.LoginTest@757acd7b]" name="beforeSuite" is-config="true" duration-ms="130" started-at="2019-08-23T13:01:51Z" finished-at="2019-08-23T13:01:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:tests.LoginTest@757acd7b]" name="beforeTest" is-config="true" duration-ms="1" started-at="2019-08-23T13:01:51Z" finished-at="2019-08-23T13:01:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:tests.LoginTest@757acd7b]" name="beforeClass" is-config="true" duration-ms="2" started-at="2019-08-23T13:01:51Z" finished-at="2019-08-23T13:01:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:tests.LoginTest@757acd7b]" name="beforeMethod" is-config="true" duration-ms="5734" started-at="2019-08-23T13:01:51Z" finished-at="2019-08-23T13:01:57Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.LoginTest.testLoginLnkChk(java.util.Hashtable)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="testLoginLnkChk(java.util.Hashtable)[pri:0, instance:tests.LoginTest@757acd7b]" name="testLoginLnkChk" duration-ms="29371" started-at="2019-08-23T13:01:57Z" data-provider="dpone" finished-at="2019-08-23T13:02:26Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{password=Teum1234#, email=admin@pareteum.com, Runmode=Y, expected title=}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLoginLnkChk -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:tests.LoginTest@757acd7b]" name="afterMethod" is-config="true" duration-ms="1241" started-at="2019-08-23T13:02:26Z" finished-at="2019-08-23T13:02:28Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testLoginLnkChk status=SUCCESS method=LoginTest.testLoginLnkChk(java.util.Hashtable)[pri:0, instance:tests.LoginTest@757acd7b] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:tests.LoginTest@757acd7b]" name="afterClass" is-config="true" duration-ms="0" started-at="2019-08-23T13:02:28Z" finished-at="2019-08-23T13:02:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:tests.LoginTest@757acd7b]" name="afterTest" is-config="true" duration-ms="0" started-at="2019-08-23T13:02:28Z" finished-at="2019-08-23T13:02:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method status="PASS" signature="afterSuite()[pri:0, instance:tests.LoginTest@757acd7b]" name="afterSuite" is-config="true" duration-ms="0" started-at="2019-08-23T13:02:28Z" finished-at="2019-08-23T13:02:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuite -->
+      </class> <!-- tests.LoginTest -->
+    </test> <!-- Login Tests -->
+  </suite> <!-- Portal Test -->
+</testng-results>

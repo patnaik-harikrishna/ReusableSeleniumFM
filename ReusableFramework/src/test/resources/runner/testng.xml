@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Portal Test" parallel="false" thread-count="2" >
+<listeners>
+	<listener class-name="listeners.CustomListeners"></listener>
+	<listener class-name="listeners.AnnotationTransformer"></listener>
+	<listener class-name="listeners.TestsListenerAdapter" />
+	<!-- <listener class-name="org.uncommons.reportng.HTMLReporter"/>
+    <listener class-name="org.uncommons.reportng.JUnitXMLReporter"/> -->
+</listeners>
+	<test name="Login Tests">
+	<parameter name="mobiledevice" value="false"/>
+		<classes>
+			<class name="tests.LoginTest" />
+		</classes>
+	</test>
+</suite> <!-- Suite -->

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="2" name="Failed suite [Login]" parallel="classes">
+  <parameter name="mobiledevice" value="false"/>
+  <listeners>
+    <listener class-name="listeners.CustomListeners"/>
+    <listener class-name="listeners.AnnotationTransformer"/>
+  </listeners>
+  <test name="Login Test(failed)" parallel="classes">
+    <parameter name="mobiledevice" value="false"/>
+    <classes>
+      <class name="tests.CplLoginTest">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="testPageChecks"/>
+          <include name="beforeMethod"/>
+          <include name="beforeClass"/>
+          <include name="beforeTest"/>
+          <include name="afterTest"/>
+          <include name="afterClass"/>
+          <include name="beforeSuite"/>
+          <include name="afterSuite"/>
+        </methods>
+      </class> <!-- tests.CplLoginTest -->
+    </classes>
+  </test> <!-- Login Test(failed) -->
+</suite> <!-- Failed suite [Login] -->

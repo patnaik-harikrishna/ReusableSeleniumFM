@@ -1,0 +1,256 @@
+2018-08-21 15:31:39 ERROR TestSetUp:51 - java.io.FileNotFoundException: D:\AutomationProjects\BDDdemo\src\test\resources\testData\simple.xlsx (The system cannot find the path specified)
+2018-08-21 15:39:15 ERROR TestSetUp:51 - java.io.FileNotFoundException: D:\AutomationProjects\BDDdemo\src\test\resources\testData\simple.xlsx (The system cannot find the path specified)
+2018-08-21 15:43:21 ERROR TestSetUp:51 - java.io.FileNotFoundException: D:\AutomationProjects\BDDdemo\src\test\resources\testData\simple.xlsx (The system cannot find the path specified)
+2018-08-21 15:46:47 ERROR TestSetUp:51 - java.io.FileNotFoundException: D:\AutomationProjects\BDDdemo\src\test\resources\testData\simple.xlsx (The system cannot find the path specified)
+2018-08-21 16:18:47 ERROR TestSetUp:51 - java.io.FileNotFoundException: D:\AutomationProjects\BDDdemo\src\test\resources\testData\simple.xlsx (The system cannot find the path specified)
+2018-08-21 16:28:35 ERROR TestSetUp:51 - java.io.FileNotFoundException: D:\AutomationProjects\BDDdemo\src\test\resources\testData\simple.xlsx (The system cannot find the path specified)
+2018-08-21 17:45:05 ERROR TestSetUp:51 - java.io.FileNotFoundException: D:\AutomationProjects\BDDdemo\src\test\resources\testData\simple.xlsx (The system cannot find the path specified)
+2018-08-21 17:55:17 ERROR TestSetUp:51 - java.io.FileNotFoundException: D:\AutomationProjects\BDDdemo\src\test\resources\testData\simple.xlsx (The system cannot find the path specified)
+2018-08-21 18:11:22 ERROR TestSetUp:51 - java.io.FileNotFoundException: D:\AutomationProjects\BDDdemo\src\test\resources\testData\simple.xlsx (The system cannot find the path specified)
+2018-08-28 21:29:57 INFO  TestSetUp:133 - Checking browser setup 
+2018-08-28 21:29:58 INFO  TestSetUp:133 - Checking browser setup 
+2018-08-28 21:38:05 INFO  TestSetUp:134 - Checking browser setup 
+2018-08-28 21:38:05 INFO  TestSetUp:134 - Checking browser setup 
+2018-08-28 21:40:46 INFO  TestSetUp:134 - Checking browser setup 
+2018-08-28 21:40:47 INFO  TestSetUp:134 - Checking browser setup 
+2018-08-28 21:44:39 INFO  TestSetUp:134 - Checking browser setup 
+2018-08-28 21:44:40 INFO  TestSetUp:134 - Checking browser setup 
+2018-08-28 21:47:26 INFO  TestSetUp:134 - Checking browser setup 
+2018-08-28 21:53:01 INFO  TestSetUp:134 - Checking browser setup 
+2018-08-28 21:53:02 INFO  TestSetUp:134 - Checking browser setup 
+2019-08-19 17:48:36 INFO  TestSetUp:96 - Total rows are : 3
+2019-08-19 17:48:36 INFO  TestSetUp:108 - Test case starts from row num: 1
+2019-08-19 17:48:36 INFO  TestSetUp:117 - Total rows of data are : 1
+2019-08-19 17:48:36 INFO  TestSetUp:125 - Total cols are : 4
+2019-08-19 17:48:36 INFO  TestSetUp:78 - Starting exection of test case: testLoginWithValidCreds
+2019-08-19 17:48:40 INFO  TestSetUp:36 - TestNG-test=Login Test-1 Error in testLoginWithValidCreds with status 4 Retry attempt # 1
+2019-08-19 17:48:41 INFO  TestSetUp:96 - Total rows are : 3
+2019-08-19 17:48:41 INFO  TestSetUp:108 - Test case starts from row num: 1
+2019-08-19 17:48:41 INFO  TestSetUp:117 - Total rows of data are : 1
+2019-08-19 17:48:41 INFO  TestSetUp:125 - Total cols are : 4
+2019-08-19 17:48:41 INFO  TestSetUp:78 - Starting exection of test case: testLoginWithValidCreds
+2019-08-19 17:48:44 INFO  TestSetUp:36 - TestNG-test=Login Test-1 Error in testLoginWithValidCreds with status 4 Retry attempt # 2
+2019-08-19 17:48:45 INFO  TestSetUp:96 - Total rows are : 3
+2019-08-19 17:48:45 INFO  TestSetUp:108 - Test case starts from row num: 1
+2019-08-19 17:48:45 INFO  TestSetUp:117 - Total rows of data are : 1
+2019-08-19 17:48:45 INFO  TestSetUp:125 - Total cols are : 4
+2019-08-19 17:48:45 INFO  TestSetUp:78 - Starting exection of test case: testLoginWithValidCreds
+2019-08-19 17:49:44 INFO  TestSetUp:96 - Total rows are : 3
+2019-08-19 17:49:44 INFO  TestSetUp:108 - Test case starts from row num: 1
+2019-08-19 17:49:44 INFO  TestSetUp:117 - Total rows of data are : 1
+2019-08-19 17:49:44 INFO  TestSetUp:125 - Total cols are : 4
+2019-08-19 17:49:44 INFO  TestSetUp:78 - Starting exection of test case: testLoginWithValidCreds
+2019-08-19 17:50:12 INFO  TestSetUp:36 - TestNG-test=Login Test-1 Error in testLoginWithValidCreds with status 4 Retry attempt # 1
+2019-08-19 17:50:13 INFO  TestSetUp:96 - Total rows are : 3
+2019-08-19 17:50:13 INFO  TestSetUp:108 - Test case starts from row num: 1
+2019-08-19 17:50:13 INFO  TestSetUp:117 - Total rows of data are : 1
+2019-08-19 17:50:13 INFO  TestSetUp:125 - Total cols are : 4
+2019-08-19 17:50:13 INFO  TestSetUp:78 - Starting exection of test case: testLoginWithValidCreds
+2019-08-19 17:50:20 INFO  TestSetUp:36 - TestNG-test=Login Test-1 Error in testLoginWithValidCreds with status 4 Retry attempt # 2
+2019-08-19 17:50:21 INFO  TestSetUp:96 - Total rows are : 3
+2019-08-19 17:50:21 INFO  TestSetUp:108 - Test case starts from row num: 1
+2019-08-19 17:50:21 INFO  TestSetUp:117 - Total rows of data are : 1
+2019-08-19 17:50:21 INFO  TestSetUp:125 - Total cols are : 4
+2019-08-19 17:50:21 INFO  TestSetUp:78 - Starting exection of test case: testLoginWithValidCreds
+2019-08-19 18:04:31 INFO  TestSetUp:96 - Total rows are : 3
+2019-08-19 18:04:31 INFO  TestSetUp:108 - Test case starts from row num: 1
+2019-08-19 18:04:31 INFO  TestSetUp:117 - Total rows of data are : 1
+2019-08-19 18:04:31 INFO  TestSetUp:125 - Total cols are : 4
+2019-08-19 18:04:31 INFO  TestSetUp:78 - Starting exection of test case: testLoginWithValidCreds
+2019-08-19 18:04:38 INFO  TestSetUp:36 - TestNG-test=Login Test-1 Error in testLoginWithValidCreds with status 4 Retry attempt # 1
+2019-08-19 18:04:39 INFO  TestSetUp:96 - Total rows are : 3
+2019-08-19 18:04:39 INFO  TestSetUp:108 - Test case starts from row num: 1
+2019-08-19 18:04:39 INFO  TestSetUp:117 - Total rows of data are : 1
+2019-08-19 18:04:39 INFO  TestSetUp:125 - Total cols are : 4
+2019-08-19 18:04:39 INFO  TestSetUp:78 - Starting exection of test case: testLoginWithValidCreds
+2019-08-19 18:04:46 INFO  TestSetUp:36 - TestNG-test=Login Test-1 Error in testLoginWithValidCreds with status 4 Retry attempt # 2
+2019-08-19 18:04:46 INFO  TestSetUp:96 - Total rows are : 3
+2019-08-19 18:04:46 INFO  TestSetUp:108 - Test case starts from row num: 1
+2019-08-19 18:04:46 INFO  TestSetUp:117 - Total rows of data are : 1
+2019-08-19 18:04:46 INFO  TestSetUp:125 - Total cols are : 4
+2019-08-19 18:04:46 INFO  TestSetUp:78 - Starting exection of test case: testLoginWithValidCreds
+2019-08-20 13:34:51 INFO  TestSetUp:96 - Total rows are : 3
+2019-08-20 13:34:51 INFO  TestSetUp:108 - Test case starts from row num: 1
+2019-08-20 13:34:51 INFO  TestSetUp:117 - Total rows of data are : 1
+2019-08-20 13:34:51 INFO  TestSetUp:125 - Total cols are : 4
+2019-08-20 13:34:51 INFO  TestSetUp:78 - Starting exection of test case: testLoginWithValidCreds
+2019-08-20 13:35:23 INFO  TestSetUp:96 - Total rows are : 3
+2019-08-20 13:35:23 INFO  TestSetUp:108 - Test case starts from row num: 1
+2019-08-20 13:35:23 INFO  TestSetUp:117 - Total rows of data are : 1
+2019-08-20 13:35:23 INFO  TestSetUp:125 - Total cols are : 4
+2019-08-20 13:35:23 INFO  TestSetUp:78 - Starting exection of test case: testLoginWithValidCreds
+2019-08-20 13:35:42 INFO  TestSetUp:36 - TestNG-test=Login Test-1 Error in testLoginWithValidCreds with status 4 Retry attempt # 1
+2019-08-20 13:35:43 INFO  TestSetUp:96 - Total rows are : 3
+2019-08-20 13:35:43 INFO  TestSetUp:108 - Test case starts from row num: 1
+2019-08-20 13:35:43 INFO  TestSetUp:117 - Total rows of data are : 1
+2019-08-20 13:35:43 INFO  TestSetUp:125 - Total cols are : 4
+2019-08-20 13:35:43 INFO  TestSetUp:78 - Starting exection of test case: testLoginWithValidCreds
+2019-08-20 13:35:58 INFO  TestSetUp:36 - TestNG-test=Login Test-1 Error in testLoginWithValidCreds with status 4 Retry attempt # 2
+2019-08-20 13:35:59 INFO  TestSetUp:96 - Total rows are : 3
+2019-08-20 13:35:59 INFO  TestSetUp:108 - Test case starts from row num: 1
+2019-08-20 13:35:59 INFO  TestSetUp:117 - Total rows of data are : 1
+2019-08-20 13:35:59 INFO  TestSetUp:125 - Total cols are : 4
+2019-08-20 13:35:59 INFO  TestSetUp:78 - Starting exection of test case: testLoginWithValidCreds
+2019-08-20 14:26:54 INFO  TestSetUp:96 - Total rows are : 3
+2019-08-20 14:26:54 INFO  TestSetUp:108 - Test case starts from row num: 1
+2019-08-20 14:26:54 INFO  TestSetUp:117 - Total rows of data are : 1
+2019-08-20 14:26:54 INFO  TestSetUp:125 - Total cols are : 4
+2019-08-20 14:26:54 INFO  TestSetUp:78 - Starting exection of test case: testLoginWithValidCreds
+2019-08-20 14:28:45 INFO  TestSetUp:96 - Total rows are : 3
+2019-08-20 14:28:45 INFO  TestSetUp:108 - Test case starts from row num: 1
+2019-08-20 14:28:45 INFO  TestSetUp:117 - Total rows of data are : 1
+2019-08-20 14:28:45 INFO  TestSetUp:125 - Total cols are : 4
+2019-08-20 14:28:45 INFO  TestSetUp:78 - Starting exection of test case: testLoginWithValidCreds
+2019-08-20 14:29:17 INFO  TestSetUp:96 - Total rows are : 3
+2019-08-20 14:29:17 INFO  TestSetUp:108 - Test case starts from row num: 1
+2019-08-20 14:29:17 INFO  TestSetUp:117 - Total rows of data are : 1
+2019-08-20 14:29:17 INFO  TestSetUp:125 - Total cols are : 4
+2019-08-20 14:29:17 INFO  TestSetUp:78 - Starting exection of test case: testLoginWithValidCreds
+2019-08-20 14:33:39 INFO  TestSetUp:78 - Starting exection of test case: testLoginWithValidCreds
+2019-08-20 14:38:54 INFO  TestSetUp:78 - Starting exection of test case: testLoginWithValidCreds
+2019-08-20 14:43:24 INFO  TestSetUp:79 - Starting exection of test case: testLoginWithValidCreds
+2019-08-20 15:15:58 INFO  TestSetUp:78 - Starting exection of test case: testLoginWithValidCreds
+2019-08-20 15:20:01 INFO  TestSetUp:78 - Starting exection of test case: clickLogin
+2019-08-20 15:20:07 INFO  TestSetUp:78 - Starting exection of test case: testNavigateUrl
+2019-08-20 15:20:46 INFO  TestSetUp:78 - Starting exection of test case: clickLogin
+2019-08-20 15:20:52 INFO  TestSetUp:78 - Starting exection of test case: testNavigateUrl
+2019-08-20 15:22:10 INFO  TestSetUp:78 - Starting exection of test case: testNavigateUrl
+2019-08-20 15:22:27 INFO  TestSetUp:78 - Starting exection of test case: clickLogin
+2019-08-20 15:26:53 INFO  TestSetUp:78 - Starting exection of test case: testNavigateUrl
+2019-08-20 17:37:23 INFO  TestSetUp:78 - Starting exection of test case: testNavigateUrl
+2019-08-20 17:47:58 INFO  TestSetUp:78 - Starting exection of test case: testNavigateUrl
+2019-08-20 17:48:59 INFO  TestSetUp:78 - Starting exection of test case: testNavigateUrl
+2019-08-20 17:51:13 INFO  TestSetUp:78 - Starting exection of test case: testNavigateUrl
+2019-08-20 17:57:21 INFO  TestSetUp:78 - Starting exection of test case: testNavigateUrl
+2019-08-20 18:01:52 INFO  TestSetUp:78 - Starting exection of test case: testNavigateUrl
+2019-08-20 18:19:22 INFO  TestSetUp:78 - Starting exection of test case: testNavigateUrl
+2019-08-20 18:32:23 INFO  TestSetUp:78 - Starting exection of test case: testNavigateUrl
+2019-08-20 18:58:32 INFO  TestSetUp:78 - Starting exection of test case: testPageChecks
+2019-08-20 19:01:10 INFO  TestSetUp:78 - Starting exection of test case: testPageChecks
+2019-08-20 19:02:25 INFO  TestSetUp:78 - Starting exection of test case: testPageChecks
+2019-08-20 19:08:38 INFO  TestSetUp:84 - Starting exection of test case: testPageChecks
+2019-08-20 19:09:51 INFO  TestSetUp:84 - Starting exection of test case: testPageChecks
+2019-08-20 19:12:36 INFO  TestSetUp:78 - Starting exection of test case: testPageChecks
+2019-08-20 19:28:32 INFO  TestSetUp:78 - Starting exection of test case: testPageChecks
+2019-08-21 17:00:30 INFO  TestSetUp:78 - Starting exection of test case: testLoginLnkChk
+2019-08-21 17:00:48 INFO  TestSetUp:23 - Click Login Link
+2019-08-21 17:02:33 INFO  TestSetUp:78 - Starting exection of test case: testLoginLnkChk
+2019-08-21 17:02:49 INFO  TestSetUp:23 - Click Login Link
+2019-08-21 17:37:20 INFO  TestSetUp:78 - Starting exection of test case: testAskQuestionMenu
+2019-08-21 17:37:20 INFO  TestSetUp:78 - Starting exection of test case: testLoginLnkChk
+2019-08-21 17:37:40 INFO  TestSetUp:23 - Hover Ask a Question Link
+2019-08-21 17:37:42 INFO  TestSetUp:25 - Ask Question Text Schedule Consultation
+2019-08-21 17:37:49 INFO  TestSetUp:23 - Click Login Link
+2019-08-21 17:39:06 INFO  TestSetUp:78 - Starting exection of test case: testLoginLnkChk
+2019-08-21 17:39:40 INFO  TestSetUp:23 - Click Login Link
+2019-08-21 17:39:42 INFO  TestSetUp:78 - Starting exection of test case: testAskQuestionMenu
+2019-08-21 17:52:55 INFO  TestSetUp:78 - Starting exection of test case: testLoginLnkChk
+2019-08-21 17:53:19 INFO  TestSetUp:23 - Click Login Link
+2019-08-21 17:53:21 INFO  TestSetUp:78 - Starting exection of test case: testAskQuestionMenu
+2019-08-21 18:04:39 INFO  TestSetUp:78 - Starting exection of test case: testLoginLnkChk
+2019-08-21 18:04:58 INFO  TestSetUp:23 - Click Login Link
+2019-08-21 18:05:00 INFO  TestSetUp:78 - Starting exection of test case: testAskQuestionMenu
+2019-08-21 18:08:16 INFO  TestSetUp:78 - Starting exection of test case: testLoginLnkChk
+2019-08-21 18:08:35 INFO  TestSetUp:23 - Click Login Link
+2019-08-21 18:08:35 INFO  TestSetUp:78 - Starting exection of test case: testAskQuestionMenu
+2019-08-21 18:08:37 INFO  TestSetUp:23 - Hover Ask a Question Link
+2019-08-21 18:08:39 INFO  TestSetUp:25 - Ask Question Text Schedule Consultation
+2019-08-21 18:18:52 INFO  TestSetUp:81 - Starting exection of test case: testLoginLnkChk
+2019-08-21 18:19:04 INFO  TestSetUp:23 - Click Login Link
+2019-08-21 18:19:05 INFO  TestSetUp:81 - Starting exection of test case: testAskQuestionMenu
+2019-08-21 18:19:06 INFO  TestSetUp:23 - Hover Ask a Question Link
+2019-08-21 18:19:08 INFO  TestSetUp:25 - Ask Question Text Schedule Consultation
+2019-08-21 18:20:55 INFO  TestSetUp:81 - Starting exection of test case: testLoginLnkChk
+2019-08-21 18:21:08 INFO  TestSetUp:23 - Click Login Link
+2019-08-21 18:21:08 INFO  TestSetUp:81 - Starting exection of test case: testAskQuestionMenu
+2019-08-21 18:21:11 INFO  TestSetUp:23 - Hover Ask a Question Link
+2019-08-21 18:21:13 INFO  TestSetUp:25 - Ask Question Text Schedule Consultation
+2019-08-21 18:23:59 INFO  TestSetUp:81 - Starting exection of test case: testLoginLnkChk
+2019-08-21 18:24:19 INFO  TestSetUp:23 - Click Login Link
+2019-08-21 18:24:21 INFO  TestSetUp:81 - Starting exection of test case: testAskQuestionMenu
+2019-08-21 18:26:37 INFO  TestSetUp:81 - Starting exection of test case: testLoginLnkChk
+2019-08-21 18:26:52 INFO  TestSetUp:23 - Click Login Link
+2019-08-21 18:26:53 INFO  TestSetUp:81 - Starting exection of test case: testAskQuestionMenu
+2019-08-21 18:31:12 INFO  TestSetUp:86 - Starting exection of test case: testLoginLnkChk
+2019-08-21 18:31:29 INFO  TestSetUp:23 - Click Login Link
+2019-08-21 18:31:29 INFO  TestSetUp:86 - Starting exection of test case: testAskQuestionMenu
+2019-08-21 18:31:32 INFO  TestSetUp:23 - Hover Ask a Question Link
+2019-08-21 18:31:34 INFO  TestSetUp:25 - Ask Question Text Schedule Consultation
+2019-08-21 18:32:18 INFO  TestSetUp:86 - Starting exection of test case: testLoginLnkChk
+2019-08-21 18:32:32 INFO  TestSetUp:23 - Click Login Link
+2019-08-21 18:32:33 INFO  TestSetUp:86 - Starting exection of test case: testAskQuestionMenu
+2019-08-21 18:34:14 INFO  TestSetUp:86 - Starting exection of test case: testLoginLnkChk
+2019-08-21 18:34:26 INFO  TestSetUp:23 - Click Login Link
+2019-08-21 18:34:28 INFO  TestSetUp:86 - Starting exection of test case: testAskQuestionMenu
+2019-08-21 19:46:41 INFO  TestSetUp:86 - Starting exection of test case: testLoginLnkChk
+2019-08-21 19:46:54 INFO  TestSetUp:34 - Click Login Link
+2019-08-21 19:46:56 INFO  TestSetUp:86 - Starting exection of test case: testAskQuestionMenu
+2019-08-21 19:49:50 INFO  TestSetUp:86 - Starting exection of test case: testLoginLnkChk
+2019-08-21 19:50:07 INFO  TestSetUp:26 - Click Login Link
+2019-08-21 19:50:10 INFO  TestSetUp:86 - Starting exection of test case: testAskQuestionMenu
+2019-08-21 20:01:56 INFO  TestSetUp:89 - Starting exection of test case: testLoginLnkChk
+2019-08-21 20:02:11 INFO  TestSetUp:26 - Click Login Link
+2019-08-21 20:02:13 INFO  TestSetUp:89 - Starting exection of test case: testAskQuestionMenu
+2019-08-21 20:05:30 INFO  TestSetUp:89 - Starting exection of test case: testLoginLnkChk
+2019-08-21 20:05:45 INFO  TestSetUp:26 - Click Login Link
+2019-08-21 20:05:47 INFO  TestSetUp:89 - Starting exection of test case: testAskQuestionMenu
+2019-08-21 20:12:31 INFO  TestSetUp:89 - Starting exection of test case: testLoginLnkChk
+2019-08-21 20:12:48 INFO  TestSetUp:26 - Click Login Link
+2019-08-21 20:12:51 INFO  TestSetUp:89 - Starting exection of test case: testAskQuestionMenu
+2019-08-21 20:30:41 INFO  TestSetUp:89 - Starting exection of test case: testLoginLnkChk
+2019-08-21 20:30:59 INFO  TestSetUp:26 - Click Login Link
+2019-08-21 20:31:08 INFO  TestSetUp:89 - Starting exection of test case: testAskQuestionMenu
+2019-08-21 20:31:23 INFO  TestSetUp:28 - Hover Ask a Question Link
+2019-08-21 20:31:26 INFO  TestSetUp:30 - Ask Question Text Schedule Consultation
+2019-08-21 20:33:01 INFO  TestSetUp:78 - Starting exection of test case: testLoginLnkChk
+2019-08-21 20:33:24 INFO  TestSetUp:78 - Starting exection of test case: testLoginLnkChk
+2019-08-21 20:33:42 INFO  TestSetUp:26 - Click Login Link
+2019-08-21 20:33:42 INFO  TestSetUp:78 - Starting exection of test case: testAskQuestionMenu
+2019-08-21 20:34:03 INFO  TestSetUp:28 - Hover Ask a Question Link
+2019-08-21 20:34:06 INFO  TestSetUp:30 - Ask Question Text Schedule Consultation
+2019-08-22 15:14:19 INFO  TestSetUp:78 - Starting exection of test case: testLoginLnkChk
+2019-08-22 15:14:40 INFO  TestSetUp:26 - Click Login Link
+2019-08-22 15:14:41 INFO  TestSetUp:78 - Starting exection of test case: testAskQuestionMenu
+2019-08-22 15:15:00 INFO  TestSetUp:28 - Hover Ask a Question Link
+2019-08-22 15:15:03 INFO  TestSetUp:30 - Ask Question Text Schedule Consultation
+2019-08-22 17:33:54 INFO  TestSetUp:78 - Starting exection of test case: testLoginLnkChk
+2019-08-22 17:34:21 INFO  TestSetUp:26 - Click Login Link
+2019-08-22 17:34:22 INFO  TestSetUp:78 - Starting exection of test case: testAskQuestionMenu
+2019-08-22 17:34:41 INFO  TestSetUp:28 - Hover Ask a Question Link
+2019-08-22 17:34:43 INFO  TestSetUp:30 - Ask Question Text Schedule Consultation
+2019-08-22 17:47:29 INFO  TestSetUp:78 - Starting exection of test case: testLoginLnkChk
+2019-08-22 17:47:50 INFO  TestSetUp:26 - Click Login Link
+2019-08-22 17:47:51 INFO  TestSetUp:78 - Starting exection of test case: testAskQuestionMenu
+2019-08-22 17:48:06 INFO  TestSetUp:28 - Hover Ask a Question Link
+2019-08-22 17:48:09 INFO  TestSetUp:30 - Ask Question Text Schedule Consultation
+2019-08-22 19:45:52 INFO  TestSetUp:78 - Starting exection of test case: testLoginLnkChk
+2019-08-22 19:46:43 INFO  TestSetUp:26 - Click Login Link
+2019-08-22 19:46:45 INFO  TestSetUp:78 - Starting exection of test case: testAskQuestionMenu
+2019-08-22 19:47:24 INFO  TestSetUp:28 - Hover Ask a Question Link
+2019-08-22 19:47:26 INFO  TestSetUp:30 - Ask Question Text Schedule Consultation
+2019-08-23 12:50:30 INFO  TestSetUp:96 - Total rows are : 3
+2019-08-23 12:50:30 INFO  TestSetUp:108 - Test case starts from row num: 4
+2019-08-23 12:50:30 INFO  TestSetUp:117 - Total rows of data are : 0
+2019-08-23 12:50:30 INFO  TestSetUp:125 - Total cols are : 0
+2019-08-23 12:52:33 INFO  TestSetUp:96 - Total rows are : 3
+2019-08-23 12:52:33 INFO  TestSetUp:108 - Test case starts from row num: 4
+2019-08-23 12:52:33 INFO  TestSetUp:117 - Total rows of data are : 0
+2019-08-23 12:52:33 INFO  TestSetUp:125 - Total cols are : 0
+2019-08-23 13:01:51 INFO  TestSetUp:96 - Total rows are : 3
+2019-08-23 13:01:51 INFO  TestSetUp:108 - Test case starts from row num: 1
+2019-08-23 13:01:51 INFO  TestSetUp:117 - Total rows of data are : 1
+2019-08-23 13:01:51 INFO  TestSetUp:125 - Total cols are : 4
+2019-08-23 13:01:51 INFO  TestSetUp:77 - Starting exection of test case: testLoginLnkChk
+2019-08-23 13:02:26 INFO  TestSetUp:35 - Click Login Link
+2019-08-23 13:23:00 INFO  TestSetUp:96 - Total rows are : 3
+2019-08-23 13:23:00 INFO  TestSetUp:108 - Test case starts from row num: 1
+2019-08-23 13:23:00 INFO  TestSetUp:117 - Total rows of data are : 1
+2019-08-23 13:23:00 INFO  TestSetUp:125 - Total cols are : 4
+2019-08-23 13:23:00 INFO  TestSetUp:77 - Starting exection of test case: testLoginLnkChk
+2019-08-23 13:23:12 INFO  TestSetUp:37 - Click Login Link
+2019-08-23 13:28:22 INFO  TestSetUp:96 - Total rows are : 3
+2019-08-23 13:28:22 INFO  TestSetUp:108 - Test case starts from row num: 1
+2019-08-23 13:28:22 INFO  TestSetUp:117 - Total rows of data are : 1
+2019-08-23 13:28:22 INFO  TestSetUp:125 - Total cols are : 4
+2019-08-23 13:28:22 INFO  TestSetUp:77 - Starting exection of test case: testLoginLnkChk
+2019-08-23 13:28:34 INFO  TestSetUp:37 - Click Login Link
