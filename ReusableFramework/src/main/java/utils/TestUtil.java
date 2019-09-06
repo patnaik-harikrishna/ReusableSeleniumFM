@@ -1,3 +1,11 @@
+/**
+ ******************************************************************************
+ * 							  REUSABLE FRAMEWORK
+ *  							CONFIDENTIAL
+ *							COPYRIGHTS TO CLOUDTERN
+ *							
+ * *****************************************************************************
+ */
 package utils;
 
 import java.util.Hashtable;
@@ -19,18 +27,10 @@ public class TestUtil {
 		}
 		
 		return false;
-		
-		
-		
 	}
 	
 	public static Object[][] getData(String testName,ExcelReader xls){
 		System.out.println("**************");
-		// find the test in the xls file
-		// find number of col in the test
-		// find number of rows in the test
-		// print the data of the test
-		// put the data in object array
 		int testCaseStartIndex=0;
 		for(int rNum=1;rNum<=xls.getRowCount("Test Data");rNum++){
 			if(testName.equals(xls.getCellData("Test Data", 0, rNum))){
@@ -66,16 +66,7 @@ public class TestUtil {
 			data[rNum-dataStartIndex][0]=table;
 		}
 		
-		//System.out.println();
-		
-		
 		return data;
 
 	}
-	
-	
-	
-	
-	
-
 }

@@ -2,8 +2,7 @@
  ******************************************************************************
  * 							  REUSABLE FRAMEWORK
  *  							CONFIDENTIAL
- *							COPYRIGHTS TO TECHASPECT
- *                              Author: NEELIMA
+ *							COPYRIGHTS TO CLOUDTERN
  *							
  * *****************************************************************************
  */

@@ -1,3 +1,11 @@
+/**
+ ******************************************************************************
+ * 							  REUSABLE FRAMEWORK
+ *  							CONFIDENTIAL
+ *							COPYRIGHTS TO CLOUDTERN
+ *							
+ * *****************************************************************************
+ */
 package tests;
 
 import java.net.MalformedURLException;

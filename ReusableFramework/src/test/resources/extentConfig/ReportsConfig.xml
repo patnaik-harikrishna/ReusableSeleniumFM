@@ -35,8 +35,8 @@
             		var logoElem = document.getElementsByClassName('brand-logo')[0],
             			image = document.createElement('img');
             			logoElem.innerHTML = '';
-            			image.src = 'file:///F:/SeleniumWorkspace/ReusableFramework/src/test/resources/lib/logo/TechAspect_Logo.webp';
-            			logoElem.setAttribute('href', 'https://www.techaspect.com');
+            			image.src = 'file:///F:/SeleniumWorkspace/ReusableFramework/src/test/resources/lib/logo/abcwebsite_Logo.webp';
+            			logoElem.setAttribute('href', 'https://www.abcwebsite.com');
             			logoElem.setAttribute('target', '_blank')
             			logoElem.appendChild(image);
             			

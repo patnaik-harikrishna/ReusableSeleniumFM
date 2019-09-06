@@ -1,8 +1,8 @@
 /**
  ******************************************************************************
- * 							    REUSABLE FRAMEWORK
+ * 							  REUSABLE FRAMEWORK
  *  							CONFIDENTIAL
- *							COPYRIGHTS TO TECHASPECT
+ *							COPYRIGHTS TO CLOUDTERN
  *							
  * *****************************************************************************
  */

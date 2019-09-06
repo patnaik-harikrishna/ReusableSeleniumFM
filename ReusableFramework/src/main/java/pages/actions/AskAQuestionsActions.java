@@ -1,3 +1,12 @@
+/**
+ ******************************************************************************
+ * 							  REUSABLE FRAMEWORK
+ *  							CONFIDENTIAL
+ *							COPYRIGHTS TO CLOUDTERN
+ *							
+ * *****************************************************************************
+ */
+
 package pages.actions;
 
 import org.openqa.selenium.WebElement;

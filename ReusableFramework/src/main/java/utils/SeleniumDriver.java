@@ -1,3 +1,11 @@
+/**
+ ******************************************************************************
+ * 							  REUSABLE FRAMEWORK
+ *  							CONFIDENTIAL
+ *							COPYRIGHTS TO CLOUDTERN
+ *							
+ * *****************************************************************************
+ */
 package utils;
 
 import java.util.concurrent.TimeUnit;

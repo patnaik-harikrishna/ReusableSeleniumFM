@@ -1,3 +1,12 @@
+/**
+ ******************************************************************************
+ * 							  REUSABLE FRAMEWORK
+ *  							CONFIDENTIAL
+ *							COPYRIGHTS TO CLOUDTERN
+ *							
+ * *****************************************************************************
+ */
+
 package utils;
 
 public class Constants {
@@ -10,7 +19,7 @@ public class Constants {
 	 *  --------------------------------------------------------------------------------------------------------------------------------------- 
 	 */
 	public static final String ROOT_DIR="user.dir";
-	public static final String AUTHOR="harip";
+	public static final String AUTHOR="qateam";
 	public static final String REGRESSION_CATEGORY="Regression";
 	public static final String SMOKE_CATEGORY="Smoke";
 	public static final String ACCEPTANCE_CATEGORY="Acceptance";
