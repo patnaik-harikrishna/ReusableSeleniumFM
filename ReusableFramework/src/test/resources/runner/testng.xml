@@ -8,16 +8,10 @@
 	<!-- <listener class-name="org.uncommons.reportng.HTMLReporter"/>
     <listener class-name="org.uncommons.reportng.JUnitXMLReporter"/> -->
 </listeners>
-	<!-- <test name="Login Tests">
+	<test name="Login Tests">
 	<parameter name="mobiledevice" value="false"/>
 		<classes>
 			<class name="tests.LoginLinkTest" />
-		</classes>
-	</test> -->
-	<test name="Ask Question Tests">
-	<parameter name="mobiledevice" value="false"/>
-		<classes>
-			<class name="runner.RunCuke" />
 		</classes>
 	</test>
 </suite> <!-- Suite -->
