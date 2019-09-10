@@ -24,7 +24,7 @@
     <div class="top-banner-root">
       <span class="top-banner-title-font">Test results</span>
       <br/>
-      <span class="top-banner-font-1">1 suite</span>
+      <span class="top-banner-font-1">1 suite, 1 failed test</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -38,7 +38,7 @@
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
             <a href="#" class="navigator-link" panel-name="suite-Portal_Test">
-              <span class="suite-name border-passed">Portal Test</span>
+              <span class="suite-name border-failed">Portal Test</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -49,7 +49,7 @@
               <ul>
                 <li>
                   <a href="#" class="navigator-link " panel-name="test-xml-Portal_Test">
-                    <span>D:\MyWorkspace\ReusableFramework\src\test\resources\runner\testng.xml</span>
+                    <span>C:\Users\MuraliKrishna\git\ReusableFM\ReusableFramework\src\test\resources\runner\testng.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -59,7 +59,7 @@
                 </li>
                 <li>
                   <a href="#" class="navigator-link " panel-name="group-Portal_Test">
-                    <span>0 groups</span>
+                    <span>1 group</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -91,21 +91,21 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">1 method,   1 passed</span>
+                    <span class="method-stats">1 method, 1 failed,   </span>
                   </li>
                   <li>
-                    <span class="method-list-title passed">Passed methods</span>
-                    <span class="show-or-hide-methods passed">
-                      <a href="#" panel-name="suite-Portal_Test" class="hide-methods passed suite-Portal_Test"> (hide)</a> <!-- hide-methods passed suite-Portal_Test -->
-                      <a href="#" panel-name="suite-Portal_Test" class="show-methods passed suite-Portal_Test"> (show)</a> <!-- show-methods passed suite-Portal_Test -->
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Portal_Test" class="hide-methods failed suite-Portal_Test"> (hide)</a> <!-- hide-methods failed suite-Portal_Test -->
+                      <a href="#" panel-name="suite-Portal_Test" class="show-methods failed suite-Portal_Test"> (show)</a> <!-- show-methods failed suite-Portal_Test -->
                     </span>
-                    <div class="method-list-content passed suite-Portal_Test">
+                    <div class="method-list-content failed suite-Portal_Test">
                       <span>
-                        <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Portal_Test" title="tests.LoginTest" hash-for-method="testLoginLnkChk({password=Teum1234#, email=admin@pareteum.com, Runmode=Y, expected title=})">testLoginLnkChk({password=Teum1234#, email=admin@pareteum.com, Runmode=Y, expected title=})</a> <!-- method navigator-link -->
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Portal_Test" title="runner.RunCuke" hash-for-method="feature(Verify for the sublinks under Ask A Question.)">feature(Verify for the sublinks under Ask A Question.)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
-                    </div> <!-- method-list-content passed suite-Portal_Test -->
+                    </div> <!-- method-list-content failed suite-Portal_Test -->
                   </li>
                 </ul>
               </div> <!-- suite-section-content -->
@@ -117,26 +117,37 @@
     <div class="wrapper">
       <div class="main-panel-root">
         <div panel-name="suite-Portal_Test" class="panel Portal_Test">
-          <div class="suite-Portal_Test-class-passed">
+          <div class="suite-Portal_Test-class-failed">
             <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
-              <span class="class-name">tests.LoginTest</span>
+              <img src="failed.png"/>
+              <span class="class-name">runner.RunCuke</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="testLoginLnkChk({password=Teum1234#, email=admin@pareteum.com, Runmode=Y, expected title=})">
-                  </a> <!-- testLoginLnkChk({password=Teum1234#, email=admin@pareteum.com, Runmode=Y, expected title=}) -->
-                  <span class="method-name">testLoginLnkChk</span>
-                  <span class="parameters">({password=Teum1234#, email=admin@pareteum.com, Runmode=Y, expected title=})</span>
+                  <a name="feature(Verify for the sublinks under Ask A Question.)">
+                  </a> <!-- feature(Verify for the sublinks under Ask A Question.) -->
+                  <span class="method-name">feature</span>
+                  <span class="parameters">(Verify for the sublinks under Ask A Question.)</span>
+                  <div class="stack-trace">java.lang.Throwable: Multiple failures (2):nnFailure 1 of 2:njunit.framework.ComparisonFailure: Both are same expected:&lt;[row 2 or column ASK A QUESTION does not exist in xls]&gt; but was:&lt;[Schedule Consultation]&gt;
+	at junit.framework.Assert.assertEquals(Assert.java:100)
+	at steps.AskAQuestionsAvailability.i_can_see_Schedule_Consulation(AskAQuestionsAvailability.java:33)
+	at ✽.Then I can see Schedule Consulation.(src/test/resources/features/AskAQuestion.feature:5)
+nnFailure 2 of 2:ncucumber.runtime.CucumberException: junit.framework.ComparisonFailure: Both are same expected:&lt;[row 2 or column ASK A QUESTION does not exist in xls]&gt; but was:&lt;[Schedule Consultation]&gt;
+	at cucumber.api.testng.TestNGCucumberRunner.runCucumber(TestNGCucumberRunner.java:69)
+	at cucumber.api.testng.AbstractTestNGCucumberTests.feature(AbstractTestNGCucumberTests.java:21)
+... Removed 25 stack frames
+</div> <!-- stack-trace -->
+                  <em>
+(Runs Cucumber Feature)                  </em>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Portal_Test-class-passed -->
+          </div> <!-- suite-Portal_Test-class-failed -->
         </div> <!-- panel Portal_Test -->
         <div panel-name="test-xml-Portal_Test" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">D:\MyWorkspace\ReusableFramework\src\test\resources\runner\testng.xml</span>
+            <span class="header-content">C:\Users\MuraliKrishna\git\ReusableFM\ReusableFramework\src\test\resources\runner\testng.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
@@ -148,12 +159,12 @@
     &lt;listener class-name=&quot;listeners.AnnotationTransformer&quot;/&gt;
     &lt;listener class-name=&quot;listeners.TestsListenerAdapter&quot;/&gt;
   &lt;/listeners&gt;
-  &lt;test name=&quot;Login Tests&quot;&gt;
+  &lt;test name=&quot;Ask Question Tests&quot;&gt;
     &lt;parameter name=&quot;mobiledevice&quot; value=&quot;false&quot;/&gt;
     &lt;classes&gt;
-      &lt;class name=&quot;tests.LoginTest&quot;/&gt;
+      &lt;class name=&quot;runner.RunCuke&quot;/&gt;
     &lt;/classes&gt;
-  &lt;/test&gt; &lt;!-- Login Tests --&gt;
+  &lt;/test&gt; &lt;!-- Ask Question Tests --&gt;
 &lt;/suite&gt; &lt;!-- Portal Test --&gt;
             </pre>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -165,7 +176,7 @@
           <div class="main-panel-content rounded-window-bottom">
             <ul>
               <li>
-                <span class="test-name">Login Tests (1 class)</span>
+                <span class="test-name">Ask Question Tests (1 class)</span>
               </li>
             </ul>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -175,6 +186,14 @@
             <span class="header-content">Groups for Portal Test</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
+            <div class="test-group">
+              <span class="test-group-name">cucumber</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">feature</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
         <div panel-name="times-Portal_Test" class="panel">
@@ -193,14 +212,14 @@ data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
 data.addRows(1);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'testLoginLnkChk')
-data.setCell(0, 2, 'tests.LoginTest')
-data.setCell(0, 3, 29371);
+data.setCell(0, 1, 'feature')
+data.setCell(0, 2, 'runner.RunCuke')
+data.setCell(0, 3, 43379);
 window.suiteTableData['Portal_Test']= { tableData: data, tableDiv: 'times-div-Portal_Test'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 29 seconds</span>
+              <span class="suite-total-time">Total running time: 43 seconds</span>
               <div id="times-div-Portal_Test">
               </div> <!-- times-div-Portal_Test -->
             </div> <!-- times-div -->
@@ -226,43 +245,29 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
-              <div class="chronological-class-name">tests.LoginTest</div> <!-- chronological-class-name -->
-              <div class="configuration-suite before">
-                <span class="method-name">beforeSuite</span>
-                <span class="method-start">0 ms</span>
-              </div> <!-- configuration-suite before -->
-              <div class="configuration-test before">
-                <span class="method-name">beforeTest</span>
-                <span class="method-start">131 ms</span>
-              </div> <!-- configuration-test before -->
+              <div class="chronological-class-name">runner.RunCuke</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
-                <span class="method-name">beforeClass</span>
-                <span class="method-start">135 ms</span>
+                <span class="method-name">setUpClass</span>
+                <span class="method-start">0 ms</span>
               </div> <!-- configuration-class before -->
-              <div class="configuration-method before">
-                <span class="method-name">beforeMethod(public void tests.LoginTest.testLoginLnkChk(java.util.Hashtable))</span>
-                <span class="method-start">155 ms</span>
-              </div> <!-- configuration-method before -->
+              <div class="configuration-class before">
+                <span class="method-name">devicePreCheck(false)</span>
+                <span class="method-start">184 ms</span>
+              </div> <!-- configuration-class before -->
               <div class="test-method">
-                <span class="method-name">testLoginLnkChk({password=Teum1234#, email=admin@pareteum.com, Runmode=Y, expected title=})</span>
-                <span class="method-start">5889 ms</span>
+                <img src="failed.png">
+                </img>
+                <span class="method-name">feature(Verify for the sublinks under Ask A Question.)</span>
+                <span class="method-start">240 ms</span>
               </div> <!-- test-method -->
-              <div class="configuration-method after">
-                <span class="method-name">afterMethod([TestResult name=testLoginLnkChk status=SUCCESS method=LoginTest.testLoginLnkChk(java.util.Hashtable...)</span>
-                <span class="method-start">35264 ms</span>
-              </div> <!-- configuration-method after -->
               <div class="configuration-class after">
-                <span class="method-name">afterClass</span>
-                <span class="method-start">36506 ms</span>
+                <span class="method-name">writeExtentReport</span>
+                <span class="method-start">43623 ms</span>
               </div> <!-- configuration-class after -->
-              <div class="configuration-test after">
-                <span class="method-name">afterTest</span>
-                <span class="method-start">36509 ms</span>
-              </div> <!-- configuration-test after -->
-              <div class="configuration-suite after">
-                <span class="method-name">afterSuite</span>
-                <span class="method-start">36576 ms</span>
-              </div> <!-- configuration-suite after -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDownClass</span>
+                <span class="method-start">43627 ms</span>
+              </div> <!-- configuration-class after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
       </div> <!-- main-panel-root -->
