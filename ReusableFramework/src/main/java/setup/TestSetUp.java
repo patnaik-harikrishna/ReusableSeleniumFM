@@ -52,8 +52,9 @@ public class TestSetUp {
 	public static boolean isInitialized=false;
 	public static String deviceCheck="false";
 	
-	public static final ExcelReader excel = new ExcelReader(
-			System.getProperty(Constants.ROOT_DIR) + "\\src\\test\\resources\\testData\\simple.xlsx");
+	public static ExcelReader excel = null;
+	
+	public static ExcelReader excel1 = null;
 
 	@BeforeSuite
 	public synchronized void beforeSuite() throws IOException {
@@ -63,11 +64,13 @@ public class TestSetUp {
 	@BeforeTest
 	public void beforeTest() throws IOException {
 		/* Before Test code comes here. */
+		initialize();
 	}
 
 	@BeforeClass
 	public void beforeClass() throws IOException {
 		/* Extent Reporting */
+		initialize();
 		ExtentTest parent = extent.createTest(getClass().getSimpleName());
 		parentTest.set(parent);
 	}
@@ -128,6 +131,11 @@ public class TestSetUp {
 
 			    }
 			}
+			
+			excel = new ExcelReader(
+					System.getProperty(Constants.ROOT_DIR) + "\\src\\test\\resources\\testData\\simple.xlsx");
+			excel1 = new ExcelReader(
+					System.getProperty(Constants.ROOT_DIR) + "\\src\\test\\resources\\testData\\simple1.xlsx");
 		}
 	}
 	

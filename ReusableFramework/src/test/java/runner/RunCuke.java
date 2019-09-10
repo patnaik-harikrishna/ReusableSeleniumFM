@@ -28,7 +28,7 @@ import cucumber.api.CucumberOptions;
 
 @RunWith(Cucumber.class)
 @CucumberOptions(format = {"pretty", "json:target/json/output.json"},
-		features = {"src/test/resources/features/DegreesProgramsTitleVerify.feature"}, 
+		features = {"src/test/resources/features/AskAQuestion.feature"}, 
 		glue = {"steps"},
 		plugin = {"com.cucumber.listener.ExtentCucumberFormatter:target/cucumber-reports/report.html"},
 		monochrome=true
@@ -50,7 +50,7 @@ public class RunCuke extends AbstractTestNGCucumberTests{
 	public static void writeExtentReport() {
 		Reporter.loadXMLConfig(new File("src/test/resources/extent-config.xml"));
         Reporter.setSystemInfo("user", System.getProperty("user.name"));
-        Reporter.setSystemInfo("os", "Windows-8");
+        Reporter.setSystemInfo("os", "Windows-10");
         Reporter.setTestRunnerOutput("Sample test runner output message");
 		//Reporter.loadXMLConfig(new File("D:\\AutomationProjects\\CucumberPageObjects\\src\\test\\resources\\extent-config.xml"));
 	}

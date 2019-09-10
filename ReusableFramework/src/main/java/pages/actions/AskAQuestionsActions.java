@@ -60,6 +60,12 @@ public class AskAQuestionsActions extends BasePage {
 				
 	@FindBy(linkText="Chat")	
 	public WebElement ChatElement;
+	
+
+	public AskAQuestionsActions() {
+		//this.megamenuLocators = new MegaMenuLocators();
+		PageFactory.initElements(DriverManager.getDriver(), this);
+	}
 
 	
 public void moveToMenu(WebElement ele)	{
